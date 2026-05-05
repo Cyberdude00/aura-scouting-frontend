@@ -2,6 +2,7 @@ export interface AgencyGalleryConfig {
   galleryKey: string;
   galleryName: string;
   modelIds: Array<{
+    
     id: string;
     status: 'on' | 'off';
     fullbook?: 'on' | 'off';
@@ -234,6 +235,7 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       // Girls
       { id: 'alicia-vallecilla', status: 'on', fullbook: 'off' },
       { id: 'antonella', status: 'on', fullbook: 'off' },
+      { id: 'agos-martinez', status: 'on', fullbook: 'off' },
       { id: 'elina', status: 'on', fullbook: 'off' },
       { id: 'emilia-bryan', status: 'on', fullbook: 'off' },
       { id: 'eugenia-lagrenade', status: 'on', fullbook: 'off' },
@@ -244,6 +246,8 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'doga-bursali', status: 'on', fullbook: 'off' },
       // Boys
       { id: 'adan', status: 'on', fullbook: 'off' },
+      { id: 'fran-mazzei', status: 'on', fullbook: 'off' },     
+      { id: 'manu-llofrein', status: 'on', fullbook: 'off' }, 
       { id: 'alan-marquez', status: 'on', fullbook: 'off' },
       { id: 'angel-bret', status: 'on', fullbook: 'off' },
       { id: 'belisario', status: 'on', fullbook: 'off' },
