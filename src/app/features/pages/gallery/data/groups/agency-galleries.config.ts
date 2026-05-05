@@ -113,7 +113,7 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'laurencio-leal', status: 'on', fullbook: 'off' },
       { id: 'lautaro-rodriguez', status: 'on', fullbook: 'off' },
       { id: 'maximo', status: 'on', fullbook: 'off' },
-      { id: 'nacho-perez', status: 'on', fullbook: 'off' },
+      { id: 'nacho-perez', status: 'off', fullbook: 'off' },
       { id: 'fran-mazzei', status: 'on', fullbook: 'off' },
       { id: 'manu-llofrein', status: 'on', fullbook: 'off' },
       { id: 'belisario', status: 'on', fullbook: 'off' },
