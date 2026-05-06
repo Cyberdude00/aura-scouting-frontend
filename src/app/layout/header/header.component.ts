@@ -16,27 +16,27 @@ import { Component } from '@angular/core';
   `,
   styles: `
     nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: var(--color-dark);
+      background: var(--text);
+      color: var(--accent);
       font-family: var(--font-main);
       padding: 10px 0;
-      z-index: 1000;
-      color: var(--color-accent);
+      position: fixed;
+      top: 0;
       transition: background-color 0.3s ease;
+      width: 100%;
+      z-index: 1000;
     }
 
     nav ul {
-      list-style: none;
-      text-align: center;
-      display: flex;
-      justify-content: center;
       align-items: center;
+      display: flex;
       flex-wrap: wrap;
       gap: 8px 24px;
+      justify-content: center;
+      list-style: none;
       margin: 0;
       padding: 0 12px;
+      text-align: center;
     }
 
     nav ul li {
@@ -51,11 +51,11 @@ import { Component } from '@angular/core';
     }
 
     nav ul li a:hover {
-      color: #181a1b;
+      color: var(--text);
     }
 
     nav a:focus {
-      outline: 3px solid var(--color-accent);
+      outline: 3px solid var(--accent);
       outline-offset: 2px;
     }
 
@@ -69,9 +69,9 @@ import { Component } from '@angular/core';
       }
 
       nav ul li {
-        margin: 0;
         flex: 0 0 50%;
         justify-content: center;
+        margin: 0;
       }
     }
   `,

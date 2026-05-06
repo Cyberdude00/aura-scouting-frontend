@@ -8,8 +8,6 @@
         <app-gallery-measurement-system [model]="model"></app-gallery-measurement-system>
       </div>
 
-
-      <!-- Book section -->
       @if (model.book && model.book.length > 0) {
         <div class="portfolio-grid">
           @for (media of model.book; track trackByPortfolioItem($index, media); let i = $index) {
@@ -29,8 +27,6 @@
         </div>
       }
 
-
-      <!-- Extra Material section (fullMaterial only) -->
       @if (model.fullMaterial && model.extraMaterial && model.extraMaterial.length > 0) {
         <div class="portfolio-grid">
           @for (media of model.extraMaterial; track trackByPortfolioItem($index, media); let i = $index) {
@@ -50,8 +46,6 @@
         </div>
       }
 
-
-      <!-- Polas section -->
       @if (model.polas && model.polas.length > 0) {
         <div class="portfolio-grid">
           @for (media of model.polas; track trackByPortfolioItem($index, media); let i = $index) {
@@ -71,8 +65,6 @@
         </div>
       }
 
-
-      <!-- Extra Snaps section (fullMaterial only) -->
       @if (model.fullMaterial && model.extraSnaps && model.extraSnaps.length > 0) {
         <div class="portfolio-grid">
           @for (media of model.extraSnaps; track trackByPortfolioItem($index, media); let i = $index) {
@@ -92,8 +84,6 @@
         </div>
       }
 
-
-      <!-- Videos section (fullMaterial only) -->
       @if (model.fullMaterial && model.videos && model.videos.length > 0) {
         <div class="portfolio-grid">
           @for (media of model.videos; track trackByPortfolioItem($index, media); let i = $index) {
@@ -108,9 +98,6 @@
           }
         </div>
       }
-
-      <!-- Botón de descarga eliminado de aquí, se moverá junto a las medidas -->
-
     </div>
   </section>
 }

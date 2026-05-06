@@ -17,11 +17,11 @@ import { Component } from '@angular/core';
   styles: [`
     #why {
       background-image: var(--background-auras-argentina);
-      background-size: cover;
       background-position: center;
-      padding: 100px 20px;
+      background-size: cover;
       display: flex;
       justify-content: center;
+      padding: 100px 20px;
     }
 
     #why .home-connect-panel {

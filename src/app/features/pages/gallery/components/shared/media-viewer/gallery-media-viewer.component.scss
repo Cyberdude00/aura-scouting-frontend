@@ -1,78 +1,75 @@
 .media-viewer {
-  z-index: 6500;
   overflow: hidden;
+  z-index: 6500;
 }
 
-.viewer-content {
-  position: relative;
-  width: min(94vw, 980px);
+.media-viewer .viewer-content {
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr auto;
   height: min(90vh, 760px);
   max-height: calc(100vh - 20px);
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 10px;
+  position: relative;
+  width: min(94vw, 980px);
 }
 
-.viewer-media-wrap {
+.media-viewer .viewer-media-wrap {
+  border-radius: 16px;
+  display: grid;
+  height: 100%;
+  overflow: hidden;
+  place-items: center;
   position: relative;
   width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  border-radius: 16px;
-  overflow: hidden;
 }
 
-.viewer-media-wrap img,
-.viewer-media-wrap video {
-  width: 100%;
+.media-viewer .viewer-media-wrap img,
+.media-viewer .viewer-media-wrap video {
+  border-radius: 12px;
+  display: block;
   height: 100%;
-  max-width: 98vw;
   max-height: 90vh;
+  max-width: 98vw;
   object-fit: contain;
   object-position: center;
-  display: block;
-  border-radius: 12px;
+  width: 100%;
 }
 
-.viewer-close {
+.media-viewer .viewer-close {
   position: absolute;
-  top: -2px;
   right: 2px;
+  top: -2px;
   z-index: 2;
 }
 
-
-.viewer-download {
-  right: 12px;
-  bottom: 12px;
-  width: 32px;
-  height: 32px;
-  font-size: 0.9rem;
+.media-viewer .viewer-download {
+  --download-btn-bottom: 12px;
+  --download-btn-font: 0.9rem;
+  --download-btn-right: 12px;
+  --download-btn-size: 32px;
 }
 
 @media (max-width: 900px) {
-  .viewer-content {
+  .media-viewer .viewer-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    width: min(96vw, 640px);
     height: min(88vh, 600px);
+    width: min(96vw, 640px);
   }
 
-  .viewer-nav {
+  .media-viewer .viewer-nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
   }
 
-  .viewer-prev {
+  .media-viewer .viewer-prev {
     left: 6px;
   }
 
-  .viewer-next {
+  .media-viewer .viewer-next {
     right: 6px;
   }
 }
-

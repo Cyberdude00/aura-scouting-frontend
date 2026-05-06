@@ -10,7 +10,6 @@ export const juanToffalo: ScoutingModel = {
   eyes: 'Brown',
   shoe: '42/9',
   book: [
-    // Orden ascendente por número
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658900/aura/gallery/models/boys/juan-toffalo/book/1-juan-toffalo-alessandro-palma-ceres.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658900/aura/gallery/models/boys/juan-toffalo/book/1-juan-toffalo-gianmarco-ceres.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658901/aura/gallery/models/boys/juan-toffalo/book/2-juan-toffalo-batuk-ceres.jpg',

@@ -1,41 +1,43 @@
 <section id="model-submission">
-  <h2>Model Submission</h2>
+  <h2 id="model-submission-title">Model Submission</h2>
 
   <div class="contact-form-wrapper">
-    <form id="emailForm" novalidate (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+    <form novalidate (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" aria-labelledby="model-submission-title">
       <div class="picture-to-upload" [class.previewing]="isPreviewing">
-        <input id="image_attachment" class="file-input" type="file" name="image_attachment" accept="image/*"
+        <input class="file-input" type="file" name="image_attachment" accept="image/*"
+          aria-label="Upload a selfie"
+          aria-describedby="submission-photo-hint"
           (change)="onFileSelected($event)">
 
-        <img [src]="imagePreviewSrc" id="img-preview" class="img-preview" alt="Preview" [style.display]="'block'" />
+        <img [src]="imagePreviewSrc" class="img-preview" alt="Preview" />
 
         <div class="upload-main-text" *ngIf="!isPreviewing">
         </div>
       </div>
 
-      <p class="text-xs text-gray-500 mt-1" style="font-size: 0.8rem; color: #888; margin-bottom: 10px;">
+      <p id="submission-photo-hint" class="submission-hint text-xs text-gray-500 mt-1">
         Upload a selfie of yourself (max 10 MB).
       </p>
 
-      <input type="text" name="name" placeholder="Name" class="text unified-text-field" required [(ngModel)]="formData.name" appTypingPlaceholder="Name">
-      <input type="text" name="age" placeholder="Age" class="text unified-text-field" required [(ngModel)]="formData.age" appTypingPlaceholder="Age">
-      <input type="email" name="email" placeholder="Email" class="text unified-text-field" required [(ngModel)]="formData.email" appTypingPlaceholder="Email">
-      <input type="text" name="height" placeholder="Height (cm)" class="text unified-text-field" required [(ngModel)]="formData.height" appTypingPlaceholder="Height (cm)">
-      <input type="text" name="social_network" placeholder="Social Network" class="text unified-text-field" maxlength="150" required [(ngModel)]="formData.social_network" appTypingPlaceholder="Social Network">
-      <input type="text" name="location" placeholder="Mother Agency (if you have)" class="text unified-text-field" required [(ngModel)]="formData.location" appTypingPlaceholder="Mother Agency (if you have)">
-      <textarea name="about_me" placeholder="About me" class="text unif|ied-text-field" minlength="10" maxlength="1000" required [(ngModel)]="formData.about_me" appTypingPlaceholder="About me"></textarea>
+      <input type="text" name="name" placeholder="Name" class="text unified-text-field" required [(ngModel)]="formData.name" appTypingPlaceholder="Name" aria-label="Name" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null">
+      <input type="text" name="age" placeholder="Age" class="text unified-text-field" required [(ngModel)]="formData.age" appTypingPlaceholder="Age" aria-label="Age" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null">
+      <input type="email" name="email" placeholder="Email" class="text unified-text-field" required [(ngModel)]="formData.email" appTypingPlaceholder="Email" aria-label="Email address" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null">
+      <input type="text" name="height" placeholder="Height (cm)" class="text unified-text-field" required [(ngModel)]="formData.height" appTypingPlaceholder="Height (cm)" aria-label="Height in centimeters" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null">
+      <input type="text" name="social_network" placeholder="Social Network" class="text unified-text-field" maxlength="150" required [(ngModel)]="formData.social_network" appTypingPlaceholder="Social Network" aria-label="Social network" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null">
+      <input type="text" name="location" placeholder="Mother Agency (if you have)" class="text unified-text-field" required [(ngModel)]="formData.location" appTypingPlaceholder="Mother Agency (if you have)" aria-label="Mother agency if you have one" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null">
+      <textarea name="about_me" placeholder="About me" class="text unif|ied-text-field" minlength="10" maxlength="1000" required [(ngModel)]="formData.about_me" appTypingPlaceholder="About me" aria-label="About me" [attr.aria-describedby]="errorMessage ? 'submission-error' : null" [attr.aria-invalid]="errorMessage ? 'true' : null"></textarea>
 
-      <p *ngIf="successMessage" class="text-xs text-gray-500 mt-1" style="font-size: 0.8rem; margin-bottom: 10px;">
+      <p *ngIf="successMessage" id="submission-success" class="submission-feedback text-xs text-gray-500 mt-1" aria-live="polite">
         {{ successMessage }}
       </p>
 
-      <p *ngIf="errorMessage" class="text-xs text-gray-500 mt-1" style="font-size: 0.8rem; color: #b02a37; margin-bottom: 10px;">
+      <p *ngIf="errorMessage" id="submission-error" class="submission-feedback submission-feedback-error text-xs text-gray-500 mt-1" aria-live="assertive">
         {{ errorMessage }}
       </p>
 
-      <button type="submit" id="submitButton" class="btn-outline-accent" [disabled]="isSubmitting || contactForm.invalid">
-        <span id="buttonText">{{ isSubmitting ? 'Sending...' : 'SUBMIT' }}</span>
-        <div id="loadingSpinner" class="spinner" [class.hidden]="!isSubmitting"></div>
+      <button type="submit" class="btn-outline-accent" [disabled]="isSubmitting || contactForm.invalid">
+        <span>{{ isSubmitting ? 'Sending...' : 'SUBMIT' }}</span>
+        <div class="spinner" [class.hidden]="!isSubmitting"></div>
       </button>
     </form>
   </div>

@@ -20,16 +20,16 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     #about {
-      background-color: var(--color-light);
+      align-items: center;
+      background-color: var(--bg);
       background-image: var(--background-auras-europe);
-      background-size: cover;
       background-position: center;
+      background-size: cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
-      text-align: center;
       padding: 20px;
+      text-align: center;
     }
 
     #about .home-about-layout {

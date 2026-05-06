@@ -4,29 +4,32 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   imports: [],
   template: `
-    <footer>
-      &copy; 2025 Aura Scouting. All rights reserved.
-      <p lang="zh" class="chinese-text">
-        欢迎来到Aura Scouting。我们专注于发掘具有潜力的国际模特。
-      </p>
-    </footer>
+<footer>
+  <!-- &copy; 2025 Aura Scouting. All rights reserved. -->
+
+  <p lang="zh" class="chinese-text">
+    © 2025 Aura Scouting。保留所有权利。
+  </p>
+</footer>
   `,
   styles: `
     footer {
-      background-color: var(--color-dark);
-      color: #fff;
-      text-align: center;
-      padding: 15px;
+      background-color: var(--text);
+      color: var(--bg);
+      font-family: var(--font-main);
       font-size: 0.9rem;
+      font-weight: 300;
+      padding: 15px;
       position: relative;
+      text-align: center;
     }
 
-    .chinese-text {
+    footer .chinese-text {
       font-family: var(--font-main);
-      font-weight: 200;
       font-size: 0.9rem;
-      opacity: 0.75;
+      font-weight: 200;
       margin-top: 8px;
+      opacity: 0.75;
     }
   `,
 })

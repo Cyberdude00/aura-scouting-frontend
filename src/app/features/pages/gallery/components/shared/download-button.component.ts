@@ -17,19 +17,20 @@ import { NgIf } from '@angular/common';
     </button>
   `,
   styles: [`
-    .button-red {
+    button.button-red {
       position: relative;
     }
-    .spinner {
-      margin-left: 8px;
-      width: 16px;
-      height: 16px;
-      border: 2px solid #fff;
-      border-top: 2px solid #c00;
-      border-radius: 50%;
-      display: inline-block;
+
+    button.button-red .spinner {
       animation: spin 1s linear infinite;
+      border: 2px solid var(--bg);
+      border-radius: 50%;
+      border-top: 2px solid var(--accent);
+      display: inline-block;
+      height: 16px;
+      margin-left: 8px;
       vertical-align: middle;
+      width: 16px;
     }
     @keyframes spin {
       0% { transform: rotate(0deg); }

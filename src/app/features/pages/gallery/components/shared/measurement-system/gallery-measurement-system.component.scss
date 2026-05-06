@@ -3,27 +3,26 @@
   gap: var(--space-3);
 }
 
-.measurement-controls {
-  display: flex;
-  flex-wrap: wrap;
+.measurements .measurement-controls {
   align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-}
-
-
-.model-meta {
   display: flex;
   flex-wrap: wrap;
+  gap: var(--space-2);
   justify-content: center;
-  gap: var(--space-2) var(--space-4);
-  font-size: var(--text-sm);
 }
 
-.model-meta span {
+.measurements .model-meta {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--text-sm);
+  gap: var(--space-2) var(--space-4);
+  justify-content: center;
+}
+
+.measurements .model-meta span {
   transition: opacity 180ms ease, transform 180ms ease;
 }
 
-.model-meta strong {
-  color: var(--color-accent);
+.measurements .model-meta strong {
+  color: var(--accent);
 }

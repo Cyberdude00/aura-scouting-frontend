@@ -18,13 +18,13 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     #contact {
-      background-color: var(--color-dark);
-      color: var(--color-bg);
-      padding-top: var(--space-8);
-      text-align: center;
+      align-items: center;
+      background-color: var(--text);
+      color: var(--bg);
       display: flex;
       flex-direction: column;
-      align-items: center;
+      padding-top: var(--space-8);
+      text-align: center;
     }
 
     #contact h2 {
