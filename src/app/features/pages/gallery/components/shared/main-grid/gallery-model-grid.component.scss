@@ -1,25 +1,25 @@
 .grid {
-  column-gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 36px 4vw 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  justify-items: center;
-  margin: 0 auto;
-  max-width: 1400px;
-  padding: 36px 4vw 60px;
+  column-gap: 24px;
   row-gap: 24px;
+  justify-items: center;
 }
 
 .grid .card {
-  animation: grid-fade-in-rise 0.7s cubic-bezier(.33,1.02,.47,.98) forwards;
-  animation-delay: calc(var(--card-index, 0) * 60ms);
-  --gallery-card-hover-y: -3px;
   --gallery-card-radius: 16px;
+  --gallery-card-hover-y: -3px;
   --gallery-card-shadow: 0 2px 12px var(--overlay);
   --gallery-card-shadow-hover: 0 8px 24px var(--overlay);
+  width: 100%;
   max-width: 280px;
   opacity: 0;
   transform: translateY(32px);
-  width: 100%;
+  animation: grid-fade-in-rise 0.7s cubic-bezier(.33,1.02,.47,.98) forwards;
+  animation-delay: calc(var(--card-index, 0) * 60ms);
 }
 
 .grid .card:hover .media-wrap img {
@@ -40,13 +40,13 @@
 }
 
 .grid .card .badge {
-  background: var(--overlay);
+  position: absolute;
+  inset: 0;
   display: grid;
+  place-items: center;
+  background: var(--overlay);
   font-size: 0.9rem;
   font-weight: 700;
-  inset: 0;
-  place-items: center;
-  position: absolute;
   text-transform: uppercase;
 }
 
@@ -56,10 +56,10 @@
 }
 
 .grid .card .card-body h2 {
+  margin: 0;
   color: var(--bg);
   font-size: 1.05rem;
   font-weight: 200;
-  margin: 0;
 }
 
 @keyframes grid-fade-in-rise {
