@@ -82,7 +82,7 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'alicia-vallecilla', status: 'on', fullbook: 'off' },
       { id: 'isabel-deutsch', status: 'on', fullbook: 'off' },
       { id: 'doga-bursali', status: 'on', fullbook: 'off' },
-      { id: 'genesis', status: 'on', fullbook: 'off' },
+      { id: 'genesis', status: 'on', fullbook: 'off' },  
       { id: 'elina', status: 'on', fullbook: 'off' },
       { id: 'eugenia-lagrenade', status: 'on', fullbook: 'off' },
       { id: 'victoria', status: 'on', fullbook: 'off' },
