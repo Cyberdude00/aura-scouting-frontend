@@ -50,7 +50,6 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
         { id: 'felicitas', status: 'on', fullbook: 'on' },
         { id: 'genesis', status: 'on', fullbook: 'on' },
         { id: 'isabel-deutsch', status: 'on', fullbook: 'on' },
-        { id: 'luciana-imoberdorf', status: 'on', fullbook: 'on' },
         { id: 'mafer', status: 'on', fullbook: 'on' },
         { id: 'mariana-arias', status: 'on', fullbook: 'on' },
         { id: 'moana', status: 'on', fullbook: 'on' },
@@ -71,7 +70,7 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'belisario', status: 'on', fullbook: 'off' },
       { id: 'bernardo-romano', status: 'on', fullbook: 'off' },
       { id: 'joaquin-garcia', status: 'on', fullbook: 'off' },
-      { id: 'juan-toffalo', status: 'on', fullbook: 'off' },
+      { id: 'juan-toffalo', status: 'off', fullbook: 'off' },
       { id: 'laurencio-leal', status: 'on', fullbook: 'off' },
       { id: 'fran-mazzei', status: 'on', fullbook: 'off' },
       { id: 'lautaro-rodriguez', status: 'on', fullbook: 'off' },
@@ -81,7 +80,6 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'eva', status: 'on', fullbook: 'off' },
       { id: 'emilia-bryan', status: 'on', fullbook: 'off' },
       { id: 'alicia-vallecilla', status: 'on', fullbook: 'off' },
-      { id: 'luciana-imoberdorf', status: 'on', fullbook: 'off' },
       { id: 'isabel-deutsch', status: 'on', fullbook: 'off' },
       { id: 'doga-bursali', status: 'on', fullbook: 'off' },
       { id: 'genesis', status: 'on', fullbook: 'off' },
@@ -90,7 +88,7 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'victoria', status: 'on', fullbook: 'off' },
       { id: 'zoe', status: 'on', fullbook: 'off' },
       { id: 'agos-martinez', status: 'on', fullbook: 'off' },
-      { id: 'moana-buezas', status: 'on', fullbook: 'off' },
+      { id: 'moana-buezas', status: 'off', fullbook: 'off' },
       { id: 'pilar', status: 'off', fullbook: 'off' },
       { id: 'mariana-arias', status: 'off', fullbook: 'off' },
       { id: 'lucas-tarrago', status: 'off', fullbook: 'off' },
@@ -195,7 +193,6 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
       { id: 'eva', status: 'on', fullbook: 'off' },
       { id: 'emilia-bryan', status: 'on', fullbook: 'off' },
       { id: 'alicia-vallecilla', status: 'on', fullbook: 'off' },
-      { id: 'luciana-imoberdorf', status: 'on', fullbook: 'off' },
       { id: 'mafer', status: 'on', fullbook: 'off' },
       { id: 'isabel-deutsch', status: 'on', fullbook: 'off' },
       { id: 'doga-bursali', status: 'on', fullbook: 'off' },
@@ -216,7 +213,6 @@ export const agencyGalleriesConfig: AgencyGalleryConfig[] = [
     galleryName: 'KIN AGENCY',
     modelIds: [
       { id: 'isabel-deutsch', status: 'on', fullbook: 'on' },
-      { id: 'luciana-imoberdorf', status: 'on', fullbook: 'on' }
     ]
   },
   {
