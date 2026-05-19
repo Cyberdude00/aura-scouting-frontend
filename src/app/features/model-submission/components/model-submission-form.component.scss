@@ -1,82 +1,20 @@
-#model-submission {
-  align-items: center;
-  background: var(--text);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 60px 0 40px 0;
-  position: relative;
-  z-index: 2;
-}
-
-#model-submission h2 {
-  color: var(--bg);
-  font-size: 2rem;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-#model-submission .typing-placeholder {
-  animation: typing-placeholder 1.2s steps(12, end) 1;
-  color: var(--gray);
-  font-style: italic;
-}
-
-#model-submission .contact-form-wrapper {
-  background: var(--text);
-  border: none;
-  border-radius: 18px;
-  box-shadow: var(--shadow-form);
-  color: var(--bg);
+.model-submission .btn-outline-accent {
+  background: transparent;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  color: var(--accent);
   font-family: var(--font-main);
-  margin: 0 auto;
-  max-width: 420px;
-  min-width: 320px;
-  padding: 40px 32px 36px 32px;
-  position: relative;
-}
-
-#model-submission .picture-to-upload {
-  align-items: center;
-  background: var(--text);
-  border: 2px dashed var(--accent);
-  border-radius: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 18px;
-  min-height: 180px;
-  text-align: center;
-  transition: 0.3s;
-}
-
-#model-submission .picture-to-upload input[type="file"] {
-  cursor: pointer;
-  height: 100%;
-  opacity: 0;
-  position: absolute;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  margin-top: 18px;
+  padding: 10px 0;
+  transition: background 0.2s, color 0.2s;
   width: 100%;
 }
-
-#model-submission .picture-to-upload.previewing .img-preview {
-  display: block;
-}
-
-#model-submission .picture-to-upload.previewing .upload-main-text {
-  display: none;
-}
-
-#model-submission .img-preview {
-  display: none;
-  max-height: 98%;
-  max-width: 98%;
-}
-
-#model-submission input.text,
-#model-submission textarea.text,
-#model-submission .unified-text-field {
+.model-submission input.text,
+.model-submission textarea.text,
+.model-submission .unified-text-field {
   background: transparent;
   border: none;
   border-bottom: 2px solid var(--accent);
@@ -91,107 +29,122 @@
   width: 100%;
 }
 
-#model-submission input.text::placeholder,
-#model-submission textarea.text::placeholder,
-#model-submission .unified-text-field::placeholder {
+.model-submission input.text::placeholder,
+.model-submission textarea.text::placeholder,
+.model-submission .unified-text-field::placeholder {
   color: var(--gray);
   opacity: 1;
 }
 
-#model-submission input.text.error-placeholder,
-#model-submission textarea.text.error-placeholder,
-#model-submission .unified-text-field.error-placeholder {
+.model-submission input.text.error-placeholder,
+.model-submission textarea.text.error-placeholder,
+.model-submission .unified-text-field.error-placeholder {
   border-bottom-color: var(--accent);
   color: var(--accent);
 }
 
-#model-submission textarea.text {
+.model-submission textarea.text {
   scrollbar-color: var(--gray) var(--text);
   scrollbar-width: thin;
 }
 
-#model-submission textarea.text::-webkit-scrollbar {
+.model-submission textarea.text::-webkit-scrollbar {
   background: var(--text);
   width: 8px;
 }
 
-#model-submission textarea.text::-webkit-scrollbar-thumb {
+.model-submission textarea.text::-webkit-scrollbar-thumb {
   background: var(--gray);
   border-radius: 4px;
 }
 
-#model-submission textarea.text::-webkit-scrollbar-thumb:hover {
+.model-submission textarea.text::-webkit-scrollbar-thumb:hover {
   background: var(--bg);
 }
+.model-submission {
+  align-items: center;
+  background: var(--text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 60px 0 40px 0;
+  position: relative;
+  z-index: 2;
+}
 
-#model-submission button[type="submit"] {
-  background: transparent;
-  border: 2px solid var(--accent);
-  border-radius: 8px;
-  color: var(--accent);
+.model-submission h2 {
+  color: var(--bg);
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+.model-submission .typing-placeholder {
+  animation: typing-placeholder 1.2s steps(12, end) 1;
+  color: var(--gray);
+  font-style: italic;
+}
+
+.model-submission .contact-form-wrapper {
+  background: var(--text);
+  border: none;
+  border-radius: 18px;
+  box-shadow: var(--shadow-form);
+  color: var(--bg);
   font-family: var(--font-main);
-  font-size: 1.08rem;
-  font-weight: 600;
-  letter-spacing: 1.2px;
-  margin-top: 18px;
-  padding: 10px 0;
-  transition: background 0.2s, color 0.2s;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 420px;
+  min-width: 320px;
+  padding: 40px 32px 36px 32px;
+  position: relative;
 }
 
-#model-submission .message-box {
-  background: var(--accent);
-  border-radius: 0.5rem;
-  color: var(--bg);
+.model-submission .picture-to-upload {
+  align-items: center;
+  background: var(--text);
+  border: 2px dashed var(--accent);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 18px;
+  min-height: 180px;
+  text-align: center;
+  transition: 0.3s;
+  position: relative;
+}
+
+.model-submission .picture-to-upload .file-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  position: relative;
 }
 
-#model-submission .message-box.success {
-  background-color: var(--success);
-  border: 1px solid var(--success);
-  color: var(--text);
+.model-submission .picture-to-upload .logo-center {
+  width: 85%;
+  max-width: 340px;
+  min-width: 180px;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+  height: 180px;
 }
 
-#model-submission .message-box.error {
-  background-color: var(--error);
-  border: 1px solid var(--error);
-  color: var(--text);
+.model-submission .picture-to-upload .file-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
 }
 
-#model-submission .submission-hint {
-  color: var(--bg);
-  font-size: 0.8rem;
-  margin-bottom: 10px;
-  opacity: 0.7;
-}
-
-#model-submission .submission-feedback {
-  color: var(--bg);
-  font-size: 0.8rem;
-  margin-bottom: 10px;
-}
-
-#model-submission .submission-feedback.submission-feedback-error {
-  color: var(--error);
-}
-
-#model-submission .spinner {
-  animation: spin 1s linear infinite;
-  border: 4px solid var(--gray);
-  border-radius: 50%;
-  border-top: 4px solid var(--bg);
-  display: inline-block;
-  height: 24px;
-  margin-left: 10px;
-  vertical-align: middle;
-  width: 24px;
-}
-
-#model-submission .hidden {
-  display: none;
-}
 
 @keyframes typing-placeholder {
   from {
@@ -200,8 +153,6 @@
   }
 
   to {
-    opacity: 1;
-    width: 100%;
   }
 }
 

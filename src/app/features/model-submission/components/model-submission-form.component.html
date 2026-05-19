@@ -1,18 +1,18 @@
-<section id="model-submission">
+<section class="model-submission">
   <h2 id="model-submission-title">Model Submission</h2>
 
   <div class="contact-form-wrapper">
     <form novalidate (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" aria-labelledby="model-submission-title">
+
       <div class="picture-to-upload" [class.previewing]="isPreviewing">
-        <input class="file-input" type="file" name="image_attachment" accept="image/*"
-          aria-label="Upload a selfie"
-          aria-describedby="submission-photo-hint"
-          (change)="onFileSelected($event)">
-
-        <img [src]="imagePreviewSrc" class="img-preview" alt="Preview" />
-
-        <div class="upload-main-text" *ngIf="!isPreviewing">
-        </div>
+        <label class="file-label">
+          <img *ngIf="isPreviewing" [src]="imagePreviewSrc" class="img-preview" alt="Preview" />
+          <img *ngIf="!isPreviewing" src="images/aura-scouting-logo.png" alt="Aura Scouting Logo" class="logo-center" />
+          <input class="file-input" type="file" name="image_attachment" accept="image/*"
+            aria-label="Upload a selfie"
+            aria-describedby="submission-photo-hint"
+            (change)="onFileSelected($event)">
+        </label>
       </div>
 
       <p id="submission-photo-hint" class="submission-hint text-xs text-gray-500 mt-1">

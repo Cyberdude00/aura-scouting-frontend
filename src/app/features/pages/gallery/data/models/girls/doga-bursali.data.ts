@@ -45,9 +45,6 @@ export const dogaBursali: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659187/aura/gallery/models/girls/doga-bursali/doga-book-aura/doga_book_33.jpg"
   ],
   extraMaterial: [],
-  polas: [],
-  extraSnaps: [],
-  videos: [],
   fullMaterialData: {
     extraMaterial: [
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683986/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_1.jpg",
