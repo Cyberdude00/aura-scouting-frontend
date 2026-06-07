@@ -9,9 +9,10 @@ import {
 
 @Component({
   selector: 'app-model-submission-form',
+  standalone: true,
   imports: [CommonModule, FormsModule, TypingPlaceholderDirective],
   templateUrl: './model-submission-form.component.html',
-  styleUrl: './model-submission-form.component.scss',
+  styleUrls: ['./model-submission-form.component.scss'],
 })
 export class ModelSubmissionForm {
   imagePreviewSrc = 'images/aura-scouting-logo.png';

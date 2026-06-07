@@ -19,6 +19,7 @@ import { angelBret } from '../models/boys/angel-bret.data';
 import { alanMarquez } from '../models/boys/alan-marquez.data';
 import { joaquinGarcia } from '../models/boys/joaquin-garcia.data';
 import { juanToffalo } from '../models/boys/juan-toffalo.data';
+import { joacoDiaz } from '../models/boys/joaco-diaz.data';
 
 import { zoe } from '../models/girls/zoe.data';
 import { moana } from '../models/girls/moana.data';
@@ -38,6 +39,8 @@ import { aliciaVallecilla } from '../models/girls/alicia-vallecilla.data';
 import { agosMartinez } from '../models/girls/agos-martinez.data';
 import { marianaArias } from '../models/girls/mariana-arias.data';
 import { antonella } from '../models/girls/antonella.data';
+import { cassandraFranco } from '../models/girls/cassandra-franco.data';
+import { marianeBallmann } from '../models/girls/mariane-ballmann.data';
 
 const sourceModels: ScoutingModel[] = [
   franMazzei,
@@ -58,6 +61,7 @@ const sourceModels: ScoutingModel[] = [
   joaquinGarcia,
   juanToffalo,
   nachoPerez,
+  joacoDiaz,
   zoe,
   victoria,
   pilar,
@@ -75,6 +79,8 @@ const sourceModels: ScoutingModel[] = [
   aliciaVallecilla,
   agosMartinez,
   marianaArias,
+  cassandraFranco,
+  marianeBallmann,
   antonella,
 ];
 

@@ -1,7 +1,8 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({
-  selector: '[appTypingPlaceholder]'
+  selector: '[appTypingPlaceholder]',
+  standalone: true
 })
 export class TypingPlaceholderDirective {
   @Input('appTypingPlaceholder') placeholderText: string = '';
