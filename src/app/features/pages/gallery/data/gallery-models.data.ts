@@ -34,6 +34,7 @@ import { pilar } from './models/girls/pilar.data';
 import { victoria } from './models/girls/victoria.data';
 import { zoe } from './models/girls/zoe.data';
 import { antonella } from './models/girls/antonella.data';
+import { cassandraFranco } from './models/girls/cassandra-franco.data';
 
 export const galleryModels: ScoutingModel[] = [
   adan,
@@ -71,4 +72,5 @@ export const galleryModels: ScoutingModel[] = [
   victoria,
   zoe,
   antonella,
+  cassandraFranco
 ];
