@@ -9,7 +9,7 @@ export const santiagoPoggi: ScoutingModel = {
   hair: "Brown",
   eyes: "Hazel",
   shoe: "9/43",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659072/aura/gallery/models/boys/santiago-poggi/book/santiago_poggi_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659073/aura/gallery/models/boys/santiago-poggi/book/santiago_poggi_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659074/aura/gallery/models/boys/santiago-poggi/book/santiago_poggi_book_03.jpg",
@@ -34,8 +34,7 @@ export const santiagoPoggi: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659088/aura/gallery/models/boys/santiago-poggi/book/santiago_poggi_book_22.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659088/aura/gallery/models/boys/santiago-poggi/book/santiago_poggi_book_23.jpg"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659090/aura/gallery/models/boys/santiago-poggi/polas/santiago_poggi_polas_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659091/aura/gallery/models/boys/santiago-poggi/polas/santiago_poggi_polas_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659092/aura/gallery/models/boys/santiago-poggi/polas/santiago_poggi_polas_3.jpg",
@@ -45,18 +44,48 @@ export const santiagoPoggi: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659095/aura/gallery/models/boys/santiago-poggi/polas/santiago_poggi_polas_7.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659096/aura/gallery/models/boys/santiago-poggi/polas/santiago_poggi_polas_8.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659097/aura/gallery/models/boys/santiago-poggi/polas/santiago_poggi_polas_9.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683383/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683384/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683386/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683388/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683389/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683390/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683391/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683394/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683395/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_9.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683396/aura/gallery/models/boys/santiago-poggi/extra-material/santiago_poggi_book_extras_10.jpg",
+    ],
+
+    snapsExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683398/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683399/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683400/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683401/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683402/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683404/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683406/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683407/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683408/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_9.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683409/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_10.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683409/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_11.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683411/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_12.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683412/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_13.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683414/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_14.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683415/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_15.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683417/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_16.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683420/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_17.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683422/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_18.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683426/aura/gallery/models/boys/santiago-poggi/extra-snaps/santiago_poggi_snaps_extras_19.jpg",
+    ],
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698483/aura/gallery/models/boys/santiago-poggi/videos/img-6257.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698487/aura/gallery/models/boys/santiago-poggi/videos/img-8587.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698490/aura/gallery/models/boys/santiago-poggi/videos/img-8760.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698496/aura/gallery/models/boys/santiago-poggi/videos/img-8762.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698483/aura/gallery/models/boys/santiago-poggi/videos/img-6257.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698487/aura/gallery/models/boys/santiago-poggi/videos/img-8587.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698490/aura/gallery/models/boys/santiago-poggi/videos/img-8760.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698496/aura/gallery/models/boys/santiago-poggi/videos/img-8762.mp4"
     ]
   },
   instagram: []

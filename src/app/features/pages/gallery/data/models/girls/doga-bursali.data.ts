@@ -9,7 +9,7 @@ export const dogaBursali: ScoutingModel = {
   hair: "Brown",
   eyes: "Hazel",
   shoe: "39",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659167/aura/gallery/models/girls/doga-bursali/doga-book-aura/doga_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659167/aura/gallery/models/girls/doga-bursali/doga-book-aura/doga_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659168/aura/gallery/models/girls/doga-bursali/doga-book-aura/doga_book_03.jpg",
@@ -44,10 +44,17 @@ export const dogaBursali: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659187/aura/gallery/models/girls/doga-bursali/doga-book-aura/doga_book_32.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659187/aura/gallery/models/girls/doga-bursali/doga-book-aura/doga_book_33.jpg"
   ],
-  extraMaterial: [],
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659189/aura/gallery/models/girls/doga-bursali/doga-snaps/image00002.jpg",
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659190/aura/gallery/models/girls/doga-bursali/doga-snaps/image00003.jpg",
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659191/aura/gallery/models/girls/doga-bursali/doga-snaps/image00004.jpg",
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659191/aura/gallery/models/girls/doga-bursali/doga-snaps/image00005.jpg",
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659192/aura/gallery/models/girls/doga-bursali/doga-snaps/image00006.jpg"
+    ],
+
   fullMaterialData: {
-    extraMaterial: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683986/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_1.jpg",
+    bookExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683986/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_1.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683987/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_2.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683988/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_3.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683988/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_4.jpg",
@@ -74,15 +81,12 @@ export const dogaBursali: ScoutingModel = {
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1772684011/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_25.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1772684011/aura/gallery/models/girls/doga-bursali/extra-material/doga_bursali_book_extras_26.jpg"
     ],
-    polas: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659189/aura/gallery/models/girls/doga-bursali/doga-snaps/image00002.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659190/aura/gallery/models/girls/doga-bursali/doga-snaps/image00003.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659191/aura/gallery/models/girls/doga-bursali/doga-snaps/image00004.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659191/aura/gallery/models/girls/doga-bursali/doga-snaps/image00005.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659192/aura/gallery/models/girls/doga-bursali/doga-snaps/image00006.jpg"
+
+    snapsExtra: [
     ],
-    extraSnaps: [],
-    videos: []
+    videos: [
+    ]
   },
-  instagram: []
+  instagram: [
+  ]
 };

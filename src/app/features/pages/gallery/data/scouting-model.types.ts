@@ -7,10 +7,10 @@ export interface ScoutingModel {
   hair?: string;
   eyes?: string;
   shoe?: string;
-  book?: string[];
-  extraMaterial?: string[];
-  polas?: string[];
-  extraSnaps?: string[];
+  bookAura?: string[];
+  bookExtra?: string[];
+  snapsSelect?: string[];
+  snapsExtra?: string[];
   videos?: string[];
   fullMaterialData?: FullMaterialMedia;
   portfolio?: string[];
@@ -18,9 +18,9 @@ export interface ScoutingModel {
 }
 
 export interface FullMaterialMedia {
-  extraMaterial?: string[];
-  polas?: string[];
-  extraSnaps?: string[];
+  bookExtra?: string[];
+  snapsSelect?: string[];
+  snapsExtra?: string[];
   videos?: string[];
 }
 
@@ -39,10 +39,10 @@ export interface GalleryModel {
   fullMaterialMedia?: string[];
   portfolio: string[];
   instagram: string[];
-  book?: string[];
-  polas?: string[];
-  extraMaterial?: string[];
-  extraSnaps?: string[];
+  bookAura?: string[];
+  bookExtra?: string[];
+  snapsSelect?: string[];
+  snapsExtra?: string[];
   videos?: string[];
 }
 

@@ -8,7 +8,8 @@ export const victoria: ScoutingModel = {
   measurements: "B 82cm W 63cm H 90cm",
   hair: "Blonde",
   eyes: "Green",
-  book: [
+  shoe: "",
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659513/aura/gallery/models/girls/victoria/book/victoria_parrado_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659514/aura/gallery/models/girls/victoria/book/victoria_parrado_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659513/aura/gallery/models/girls/victoria/book/victoria_parrado_book_03.jpg",
@@ -33,8 +34,19 @@ export const victoria: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659528/aura/gallery/models/girls/victoria/book/victoria_parrado_book_22.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659529/aura/gallery/models/girls/victoria/book/victoria_parrado_book_23.jpg"
   ],
-  extraMaterial: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695523/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_1.jpg",
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_01.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659531/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_02.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659531/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_03.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659532/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_04.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659534/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_05.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659535/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_06.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659536/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_07.jpg"
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695523/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695524/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695525/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_3.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695526/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_4.jpg",
@@ -299,18 +311,10 @@ export const victoria: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695786/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_263.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695787/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_264.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695788/aura/gallery/models/girls/victoria/extra-material/victoria_parrado_book_extras_265.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_01.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659531/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_02.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659531/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_03.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659532/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_04.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659534/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_05.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659535/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_06.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659536/aura/gallery/models/girls/victoria/polas/victoria_parrado_snaps_07.jpg"
-  ],
-  extraSnaps: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698237/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_1.jpg",
+    ],
+
+    snapsExtra: [
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698237/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698239/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698240/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_3.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698240/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_4.jpg",
@@ -326,7 +330,10 @@ export const victoria: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698251/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_14.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698252/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_15.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698253/aura/gallery/models/girls/victoria/extra-snaps/victoria_parrado_snaps_extras_16.jpg"
-  ],
-  videos: [],
-  instagram: []
+    ],
+    videos: [
+    ]
+  },
+  instagram: [
+  ]
 };

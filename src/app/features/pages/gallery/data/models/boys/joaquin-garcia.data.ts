@@ -9,7 +9,7 @@ export const joaquinGarcia: ScoutingModel = {
   hair: "Blonde",
   eyes: "Blue",
   shoe: "45/11",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771954306/joaquin_garcia_book_12_egbmqc.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771954306/joaquin_garcia_book_17_ewdim7.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771954305/joaquin_garcia_book_16_xc6s3l.jpg",
@@ -28,25 +28,35 @@ export const joaquinGarcia: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771954293/joaquin_garcia_book_02_lowvec.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771954292/joaquin_garcia_book_01_s1vcfk.jpg"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658894/aura/gallery/models/boys/joaquin-garcia/polas/img_4720.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658895/aura/gallery/models/boys/joaquin-garcia/polas/img_4733.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658896/aura/gallery/models/boys/joaquin-garcia/polas/img_4737.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658896/aura/gallery/models/boys/joaquin-garcia/polas/img_4760.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658898/aura/gallery/models/boys/joaquin-garcia/polas/img_4799.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658898/aura/gallery/models/boys/joaquin-garcia/polas/img_4808.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [
+    
+    ],
+
+  snapsExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654878/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654880/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654881/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654882/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654883/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654884/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654885/aura/gallery/models/boys/joaquin-garcia/extra-polas/joaquin_garcia_snaps_extra_7.jpg",
+    ],
+    
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698457/aura/gallery/models/boys/joaquin-garcia/videos/intro-joaco-garcia.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698459/aura/gallery/models/boys/joaquin-garcia/videos/intro-joaquin-garcia-img_2736.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698457/aura/gallery/models/boys/joaquin-garcia/videos/intro-joaco-garcia.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698459/aura/gallery/models/boys/joaquin-garcia/videos/intro-joaquin-garcia-img_2736.mp4"
     ]
   },
-  instagram: []
+  instagram: [
+  ]
 };

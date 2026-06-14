@@ -9,7 +9,7 @@ export const aliciaVallecilla: ScoutingModel = {
   hair: "Black",
   eyes: "Brown",
   shoe: "8.5/39",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659149/aura/gallery/models/girls/alicia-vallecilla/book/alicia_book_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659149/aura/gallery/models/girls/alicia-vallecilla/book/alicia_book_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659150/aura/gallery/models/girls/alicia-vallecilla/book/alicia_book_3.jpg",
@@ -34,8 +34,14 @@ export const aliciaVallecilla: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659162/aura/gallery/models/girls/alicia-vallecilla/book/alicia_book_22.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659163/aura/gallery/models/girls/alicia-vallecilla/book/alicia_book_23.jpg"
   ],
-  extraMaterial: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683960/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_1.jpg",
+  snapsSelect: ["https://res.cloudinary.com/dcxaitngm/image/upload/v1771659163/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659164/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659165/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659165/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_4.jpg"
+    ],
+
+  fullMaterialData: {
+    bookExtra: ["https://res.cloudinary.com/dcxaitngm/image/upload/v1772683960/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683961/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683962/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_3.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683963/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_4.jpg",
@@ -59,20 +65,11 @@ export const aliciaVallecilla: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683981/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_22.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683982/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_23.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683983/aura/gallery/models/girls/alicia-vallecilla/extra-material/alicia_vallencilla_book_extras_24.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659163/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_1.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659164/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_2.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659165/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_3.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659165/aura/gallery/models/girls/alicia-vallecilla/polas/alicia_vallecilla_polas_4.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
-  fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
-    videos: [
+    ],
+
+    snapsExtra: [
+    ],
+    videos: [  
       "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698512/aura/gallery/models/girls/alicia-vallecilla/videos/20231116_181941446.mp4",
       "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698514/aura/gallery/models/girls/alicia-vallecilla/videos/20231116_181955521.mp4"
     ]

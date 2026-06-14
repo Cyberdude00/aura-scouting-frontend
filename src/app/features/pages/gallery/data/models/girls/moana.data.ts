@@ -9,7 +9,7 @@ export const moana: ScoutingModel = {
   hair: "Brown",
   eyes: "Brown",
   shoe: "6/39",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659470/aura/gallery/models/girls/moana-buezas/book/moana_buezas_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659470/aura/gallery/models/girls/moana-buezas/book/moana_buezas_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659471/aura/gallery/models/girls/moana-buezas/book/moana_buezas_book_03.jpg",
@@ -28,8 +28,17 @@ export const moana: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659481/aura/gallery/models/girls/moana-buezas/book/moana_buezas_book_16.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659481/aura/gallery/models/girls/moana-buezas/book/moana_buezas_book_17.jpg",
   ],
-  extraMaterial: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695460/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_1.jpg",
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659482/aura/gallery/models/girls/moana-buezas/polas/img_2622.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659483/aura/gallery/models/girls/moana-buezas/polas/img_2632.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659484/aura/gallery/models/girls/moana-buezas/polas/img_2653.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659485/aura/gallery/models/girls/moana-buezas/polas/img_2686.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659486/aura/gallery/models/girls/moana-buezas/polas/img_2698.jpg"
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695460/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695461/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_2.webp",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695462/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_3.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695463/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_4.jpg",
@@ -42,26 +51,15 @@ export const moana: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695470/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_11.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695471/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_12.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695472/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_13.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659482/aura/gallery/models/girls/moana-buezas/polas/img_2622.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659483/aura/gallery/models/girls/moana-buezas/polas/img_2632.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659484/aura/gallery/models/girls/moana-buezas/polas/img_2653.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659485/aura/gallery/models/girls/moana-buezas/polas/img_2686.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659486/aura/gallery/models/girls/moana-buezas/polas/img_2698.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
-  fullMaterialData: {
-    extraMaterial: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695460/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_1.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695461/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_2.webp",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695462/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_3.jpg"
     ],
-    polas: [
-         ],
-    extraSnaps: [],
-    videos: []
+
+    snapsExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695460/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695461/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_2.webp",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695462/aura/gallery/models/girls/moana-buezas/extra-material/moana_book_extras_3.jpg"
+    ],
+    videos: [
+    ]
   },
   instagram: []
 };

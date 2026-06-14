@@ -9,7 +9,7 @@ export const belisario: ScoutingModel = {
   hair: "Black",
   eyes: "Brown",
   shoe: "44",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658779/aura/gallery/models/boys/belisario/book/belisario_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658779/aura/gallery/models/boys/belisario/book/belisario_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658780/aura/gallery/models/boys/belisario/book/belisario_book_03.jpg",
@@ -42,7 +42,17 @@ export const belisario: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658802/aura/gallery/models/boys/belisario/book/belisario_book_30.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658803/aura/gallery/models/boys/belisario/book/belisario_book_31.jpg"
   ],
-  extraMaterial: [
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658804/aura/gallery/models/boys/belisario/polas/dscf5402.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658804/aura/gallery/models/boys/belisario/polas/dscf5407.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658805/aura/gallery/models/boys/belisario/polas/dscf5409.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658806/aura/gallery/models/boys/belisario/polas/dscf5414.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658807/aura/gallery/models/boys/belisario/polas/dscf5443.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658808/aura/gallery/models/boys/belisario/polas/dscf5444.jpg"
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654378/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654379/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654380/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_3.jpg",
@@ -51,16 +61,9 @@ export const belisario: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654384/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_6.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654385/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_7.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654386/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_8.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658804/aura/gallery/models/boys/belisario/polas/dscf5402.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658804/aura/gallery/models/boys/belisario/polas/dscf5407.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658805/aura/gallery/models/boys/belisario/polas/dscf5409.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658806/aura/gallery/models/boys/belisario/polas/dscf5414.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658807/aura/gallery/models/boys/belisario/polas/dscf5443.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658808/aura/gallery/models/boys/belisario/polas/dscf5444.jpg"
-  ],
-  extraSnaps: [
+    ],
+
+    snapsExtra: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654386/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654387/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654389/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps3.jpg",
@@ -72,40 +75,9 @@ export const belisario: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654394/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps9.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654395/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps10.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654396/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps11.jpg"
-  ],
-  videos: [],
-  fullMaterialData: {
-    extraMaterial: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654378/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_1.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654379/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_2.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654380/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_3.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654382/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_4.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654383/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_5.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654384/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_6.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654385/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_7.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654386/aura/gallery/models/boys/belisario/extra-material/belisario_book_extras_8.jpg"
     ],
-    polas: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654386/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps1.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654387/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps2.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654389/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps3.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654390/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps4.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654391/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps5.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654391/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps6.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654392/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps7.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654393/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps8.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654394/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps9.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654395/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps10.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654396/aura/gallery/models/boys/belisario/extra-polas/belisario_snaps11.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658804/aura/gallery/models/boys/belisario/polas/dscf5402.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658804/aura/gallery/models/boys/belisario/polas/dscf5407.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658805/aura/gallery/models/boys/belisario/polas/dscf5409.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658806/aura/gallery/models/boys/belisario/polas/dscf5414.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658807/aura/gallery/models/boys/belisario/polas/dscf5443.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658808/aura/gallery/models/boys/belisario/polas/dscf5444.jpg"
-    ],
-    extraSnaps: [],
-    videos: []
+    videos: [
+    ]
   },
   instagram: []
 };

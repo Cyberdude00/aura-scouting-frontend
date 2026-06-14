@@ -9,7 +9,7 @@ export const zoe: ScoutingModel = {
   hair: "Brown",
   eyes: "Brown",
   shoe: "8/38",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659543/aura/gallery/models/girls/zoe/book/zoe_book_06.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659544/aura/gallery/models/girls/zoe/book/zoe_book_07.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659545/aura/gallery/models/girls/zoe/book/zoe_book_08.jpg",
@@ -42,7 +42,18 @@ export const zoe: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659571/aura/gallery/models/girls/zoe/book/zoe_book_35.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659572/aura/gallery/models/girls/zoe/book/zoe_book_36.jpg"
   ],
-  extraMaterial: [
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659573/aura/gallery/models/girls/zoe/polas/_r9a0004.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659574/aura/gallery/models/girls/zoe/polas/_r9a0014.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659575/aura/gallery/models/girls/zoe/polas/_r9a0021.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659576/aura/gallery/models/girls/zoe/polas/_r9a0031.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659577/aura/gallery/models/girls/zoe/polas/_r9a9936.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659578/aura/gallery/models/girls/zoe/polas/_r9a9976.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659579/aura/gallery/models/girls/zoe/polas/_r9a9999.jpg"
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698279/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698279/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698280/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_3.jpg",
@@ -52,41 +63,22 @@ export const zoe: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698285/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_7.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698286/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_8.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698287/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_9.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659573/aura/gallery/models/girls/zoe/polas/_r9a0004.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659574/aura/gallery/models/girls/zoe/polas/_r9a0014.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659575/aura/gallery/models/girls/zoe/polas/_r9a0021.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659576/aura/gallery/models/girls/zoe/polas/_r9a0031.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659577/aura/gallery/models/girls/zoe/polas/_r9a9936.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659578/aura/gallery/models/girls/zoe/polas/_r9a9976.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659579/aura/gallery/models/girls/zoe/polas/_r9a9999.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
-  fullMaterialData: {
-    extraMaterial: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698279/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_1.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698279/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_2.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698280/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_3.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698282/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_4.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698283/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_5.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698284/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_6.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698285/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_7.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698286/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_8.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698287/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_9.jpg"
     ],
-    polas: [
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659573/aura/gallery/models/girls/zoe/polas/_r9a0004.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659574/aura/gallery/models/girls/zoe/polas/_r9a0014.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659575/aura/gallery/models/girls/zoe/polas/_r9a0021.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659576/aura/gallery/models/girls/zoe/polas/_r9a0031.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659577/aura/gallery/models/girls/zoe/polas/_r9a9936.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659578/aura/gallery/models/girls/zoe/polas/_r9a9976.jpg",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659579/aura/gallery/models/girls/zoe/polas/_r9a9999.jpg"
+
+    snapsExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698279/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698279/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698280/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698282/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698283/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698284/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698285/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698286/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698287/aura/gallery/models/girls/zoe/extra-material/zoe_book_extras_9.jpg"
     ],
-    extraSnaps: [],
-    videos: []
+    videos: [
+    ]
   },
-  instagram: []
+  instagram: [
+  ]
 };

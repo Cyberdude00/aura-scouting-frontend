@@ -9,7 +9,7 @@ export const mafer: ScoutingModel = {
   hair: "Brown",
   eyes: "Brown",
   shoe: "6/36",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659420/aura/gallery/models/girls/mafer/book/mafer_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659421/aura/gallery/models/girls/mafer/book/mafer_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659422/aura/gallery/models/girls/mafer/book/mafer_book_03.jpg",
@@ -38,7 +38,7 @@ export const mafer: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659438/aura/gallery/models/girls/mafer/book/mafer_book_26.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659439/aura/gallery/models/girls/mafer/book/mafer_book_27.jpg"
   ],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659440/aura/gallery/models/girls/mafer/polas/_r9a6309.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659441/aura/gallery/models/girls/mafer/polas/_r9a6403.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659442/aura/gallery/models/girls/mafer/polas/_r9a6650.jpg",
@@ -46,12 +46,11 @@ export const mafer: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659445/aura/gallery/models/girls/mafer/polas/_r9a6902.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659446/aura/gallery/models/girls/mafer/polas/_r9a6965.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659447/aura/gallery/models/girls/mafer/polas/_r9a6972.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-      extraMaterial: [
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698240/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_1.jpg",
+    bookExtra: [
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698240/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_1.jpg",
         "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698241/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_2.jpg",
         "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698242/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_3.jpg",
         "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698243/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_4.jpg",
@@ -61,15 +60,16 @@ export const mafer: ScoutingModel = {
         "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698247/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_8.jpg",
         "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698248/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_9.jpg",
         "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698249/aura/gallery/models/girls/mafer/extra-material/mafer_book_extras_10.jpg"
-      ],
-    polas: [],
-    extraSnaps: [],
+    ],
+
+    snapsExtra: [
+    ],
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698558/aura/gallery/models/girls/mafer/videos/mafer-b_pasarela_-.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698561/aura/gallery/models/girls/mafer/videos/mafer-b_pasarela_2.mp4",
-      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698564/aura/gallery/models/girls/mafer/videos/mafer-b_personalidad-ingles_2.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698568/aura/gallery/models/girls/mafer/videos/mafer-b_presentacion-ingles_1.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698575/aura/gallery/models/girls/mafer/videos/mafer-b_presentacion-ingles_2.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698558/aura/gallery/models/girls/mafer/videos/mafer-b_pasarela_-.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698561/aura/gallery/models/girls/mafer/videos/mafer-b_pasarela_2.mp4",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698564/aura/gallery/models/girls/mafer/videos/mafer-b_personalidad-ingles_2.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698568/aura/gallery/models/girls/mafer/videos/mafer-b_presentacion-ingles_1.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698575/aura/gallery/models/girls/mafer/videos/mafer-b_presentacion-ingles_2.mp4"
     ]
   },
   instagram: []

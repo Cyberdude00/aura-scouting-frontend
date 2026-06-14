@@ -9,7 +9,7 @@ export const eva: ScoutingModel = {
   hair: "Brown",
   eyes: "Hazel",
   shoe: "8/38",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659282/aura/gallery/models/girls/eva/book/book01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659283/aura/gallery/models/girls/eva/book/book02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659284/aura/gallery/models/girls/eva/book/book03.jpg",
@@ -57,8 +57,7 @@ export const eva: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659316/aura/gallery/models/girls/eva/book/book046.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659316/aura/gallery/models/girls/eva/book/book047.jpg"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659317/aura/gallery/models/girls/eva/polas/eva-digitals-01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659318/aura/gallery/models/girls/eva/polas/eva-digitals-02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659318/aura/gallery/models/girls/eva/polas/eva-digitals-03.jpg",
@@ -66,27 +65,26 @@ export const eva: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659320/aura/gallery/models/girls/eva/polas/eva-digitals-05.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659321/aura/gallery/models/girls/eva/polas/eva-digitals-06.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659322/aura/gallery/models/girls/eva/polas/eva-digitals-07.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-      extraMaterial: [
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698200/aura/gallery/models/girls/eva/extra-material/eva_book_extras_1.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698201/aura/gallery/models/girls/eva/extra-material/eva_book_extras_2.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698202/aura/gallery/models/girls/eva/extra-material/eva_book_extras_3.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698203/aura/gallery/models/girls/eva/extra-material/eva_book_extras_4.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698204/aura/gallery/models/girls/eva/extra-material/eva_book_extras_5.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698205/aura/gallery/models/girls/eva/extra-material/eva_book_extras_6.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698206/aura/gallery/models/girls/eva/extra-material/eva_book_extras_7.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698207/aura/gallery/models/girls/eva/extra-material/eva_book_extras_8.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698208/aura/gallery/models/girls/eva/extra-material/eva_book_extras_9.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698209/aura/gallery/models/girls/eva/extra-material/eva_book_extras_10.jpg"
-      ],
-    polas: [],
-    extraSnaps: [],
-    videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698531/aura/gallery/models/girls/eva/videos/img_3199.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698535/aura/gallery/models/girls/eva/videos/video-output-30c26863-215a-41cd-bcd7-10c762fd216e-1.mp4"
+    bookExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698200/aura/gallery/models/girls/eva/extra-material/eva_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698201/aura/gallery/models/girls/eva/extra-material/eva_book_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698202/aura/gallery/models/girls/eva/extra-material/eva_book_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698203/aura/gallery/models/girls/eva/extra-material/eva_book_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698204/aura/gallery/models/girls/eva/extra-material/eva_book_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698205/aura/gallery/models/girls/eva/extra-material/eva_book_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698206/aura/gallery/models/girls/eva/extra-material/eva_book_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698207/aura/gallery/models/girls/eva/extra-material/eva_book_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698208/aura/gallery/models/girls/eva/extra-material/eva_book_extras_9.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698209/aura/gallery/models/girls/eva/extra-material/eva_book_extras_10.jpg"
+    ],
+
+    snapsExtra: [
+    ],
+    videos: ["https://res.cloudinary.com/dcxaitngm/video/upload/v1772698531/aura/gallery/models/girls/eva/videos/img_3199.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698535/aura/gallery/models/girls/eva/videos/video-output-30c26863-215a-41cd-bcd7-10c762fd216e-1.mp4"
     ]
   },
   instagram: []

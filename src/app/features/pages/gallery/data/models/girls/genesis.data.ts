@@ -9,7 +9,7 @@ export const genesis: ScoutingModel = {
   hair: "Black",
   eyes: "Brown",
   shoe: "8/38",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659371/aura/gallery/models/girls/genesis/book/genesis_book_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659371/aura/gallery/models/girls/genesis/book/genesis_book_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659372/aura/gallery/models/girls/genesis/book/genesis_book_3.jpg",
@@ -32,8 +32,7 @@ export const genesis: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659384/aura/gallery/models/girls/genesis/book/genesis_book_20.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659384/aura/gallery/models/girls/genesis/book/genesis_book_21.jpg"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659385/aura/gallery/models/girls/genesis/polas/genesis-polas1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659385/aura/gallery/models/girls/genesis/polas/genesis-polas2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659386/aura/gallery/models/girls/genesis/polas/genesis-polas3.jpg",
@@ -41,16 +40,17 @@ export const genesis: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659387/aura/gallery/models/girls/genesis/polas/genesis_polas_5.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659388/aura/gallery/models/girls/genesis/polas/genesis_polas_6.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659389/aura/gallery/models/girls/genesis/polas/genesis_polas_7.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [
+    ],
+
+    snapsExtra: [
+    ],
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698548/aura/gallery/models/girls/genesis/videos/20231013_181542565.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698550/aura/gallery/models/girls/genesis/videos/20231013_181549235.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698548/aura/gallery/models/girls/genesis/videos/20231013_181542565.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698550/aura/gallery/models/girls/genesis/videos/20231013_181549235.mp4"
     ]
   },
   instagram: []

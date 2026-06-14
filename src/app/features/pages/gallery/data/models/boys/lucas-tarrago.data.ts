@@ -9,7 +9,7 @@ export const lucasTarrago: ScoutingModel = {
   hair: "Brown",
   eyes: "Brown",
   shoe: "9.5/43",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658974/aura/gallery/models/boys/lucas-tarrago/book/lucas_tarrago_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658975/aura/gallery/models/boys/lucas-tarrago/book/lucas_tarrago_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658975/aura/gallery/models/boys/lucas-tarrago/book/lucas_tarrago_book_03.jpg",
@@ -45,24 +45,52 @@ export const lucasTarrago: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771658999/aura/gallery/models/boys/lucas-tarrago/book/lucas_tarrago_book_33.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659000/aura/gallery/models/boys/lucas-tarrago/book/lucas_tarrago_book_34.jpg"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659001/aura/gallery/models/boys/lucas-tarrago/polas/lucas_tarrago_polas_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659002/aura/gallery/models/boys/lucas-tarrago/polas/lucas_tarrago_polas_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659003/aura/gallery/models/boys/lucas-tarrago/polas/lucas_tarrago_polas_03.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659004/aura/gallery/models/boys/lucas-tarrago/polas/lucas_tarrago_polas_04.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659005/aura/gallery/models/boys/lucas-tarrago/polas/lucas_tarrago_polas_05.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659006/aura/gallery/models/boys/lucas-tarrago/polas/lucas_tarrago_polas_07.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655005/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655006/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655006/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655008/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655009/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655010/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655011/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655013/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655014/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_9.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655015/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_10.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655016/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_11.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655017/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_12.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655018/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_13.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655018/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_14.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655020/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_15.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655021/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_16.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655022/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_17.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655023/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_18.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655024/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_19.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655025/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_20.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655026/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_21.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655027/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_22.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655028/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_23.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655029/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_24.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655030/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_25.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655031/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_26.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655038/aura/gallery/models/boys/lucas-tarrago/extra-material/lucas_tarrago_book_extras_27.jpg",
+    ],
+
+    snapsExtra: [
+      "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655039/aura/gallery/models/boys/lucas-tarrago/extra-snaps/lucas_tarrago_polas_06.jpg",
+    ],
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698471/aura/gallery/models/boys/lucas-tarrago/videos/img-8133.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698474/aura/gallery/models/boys/lucas-tarrago/videos/whatsapp-video-2025-05-10-at-6-54-56-a-m-.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698471/aura/gallery/models/boys/lucas-tarrago/videos/img-8133.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698474/aura/gallery/models/boys/lucas-tarrago/videos/whatsapp-video-2025-05-10-at-6-54-56-a-m-.mp4"
     ]
   },
   instagram: []

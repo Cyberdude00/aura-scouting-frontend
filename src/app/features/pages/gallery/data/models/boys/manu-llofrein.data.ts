@@ -9,7 +9,7 @@ export const manuLlofrein: ScoutingModel = {
   hair: "Blue",
   eyes: "Brown",
   shoe: "43/9.5",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659007/aura/gallery/models/boys/manu-llofrein/book/manu_llofrein_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659008/aura/gallery/models/boys/manu-llofrein/book/manu_llofrein_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659009/aura/gallery/models/boys/manu-llofrein/book/manu_llofrein_book_03.jpg",
@@ -50,8 +50,17 @@ export const manuLlofrein: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659035/aura/gallery/models/boys/manu-llofrein/book/manu_llofrein_book_38.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659035/aura/gallery/models/boys/manu-llofrein/book/portada_3311210501_negro_remera_over_pesada_0430.webp"
   ],
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659036/aura/gallery/models/boys/manu-llofrein/polas/0h6a5343.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659037/aura/gallery/models/boys/manu-llofrein/polas/0h6a5356.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659038/aura/gallery/models/boys/manu-llofrein/polas/0h6a5367.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659040/aura/gallery/models/boys/manu-llofrein/polas/0h6a5393.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659042/aura/gallery/models/boys/manu-llofrein/polas/0h6a5416.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659050/aura/gallery/models/boys/manu-llofrein/polas/0h6a5437.jpg"
+    ],
+
   fullMaterialData: {
-  extraMaterial: [
+    bookExtra: [
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772665506/aura/gallery/models/boys/manu-llofrein/extra-material/manu_llofrein_book_extras_569.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772665502/aura/gallery/models/boys/manu-llofrein/extra-material/manu_llofrein_book_extras_568.webp",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772665501/aura/gallery/models/boys/manu-llofrein/extra-material/manu_llofrein_book_extras_567.jpg",
@@ -637,16 +646,9 @@ export const manuLlofrein: ScoutingModel = {
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655042/aura/gallery/models/boys/manu-llofrein/extra-material/manu_llofrein_book_extras_3.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655041/aura/gallery/models/boys/manu-llofrein/extra-material/manu_llofrein_book_extras_2.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772655040/aura/gallery/models/boys/manu-llofrein/extra-material/manu_llofrein_book_extras_1.webp"
-],
-polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659036/aura/gallery/models/boys/manu-llofrein/polas/0h6a5343.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659037/aura/gallery/models/boys/manu-llofrein/polas/0h6a5356.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659038/aura/gallery/models/boys/manu-llofrein/polas/0h6a5367.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659040/aura/gallery/models/boys/manu-llofrein/polas/0h6a5393.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659042/aura/gallery/models/boys/manu-llofrein/polas/0h6a5416.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659050/aura/gallery/models/boys/manu-llofrein/polas/0h6a5437.jpg"
- ],
-extraSnaps: [
+    ],
+
+    snapsExtra: [
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683349/aura/gallery/models/boys/manu-llofrein/extra-snaps/manu_llofrein_snaps_extras_26.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683347/aura/gallery/models/boys/manu-llofrein/extra-snaps/manu_llofrein_snaps_extras_25.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772683346/aura/gallery/models/boys/manu-llofrein/extra-snaps/manu_llofrein_snaps_extras_24.jpg",
@@ -673,8 +675,10 @@ extraSnaps: [
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772665512/aura/gallery/models/boys/manu-llofrein/extra-snaps/manu_llofrein_snaps_extras_3.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772665511/aura/gallery/models/boys/manu-llofrein/extra-snaps/manu_llofrein_snaps_extras_2.jpg",
   "https://res.cloudinary.com/dcxaitngm/image/upload/v1772665510/aura/gallery/models/boys/manu-llofrein/extra-snaps/manu_llofrein_snaps_extras_1.jpg"
-  ],
-  videos: [],
+    ],
+    videos: [
+    ]
   },
-  instagram: []
+  instagram: [
+  ]
 };

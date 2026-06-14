@@ -16,10 +16,10 @@ export class PortfolioModal {
       if (!this.model) return;
 
       const material: ModelMaterialSections = {
-        book: this.model.book || [],
-        polas: this.model.polas || [],
-        extraMaterial: this.model.fullMaterial ? (this.model.extraMaterial || []) : [],
-        extraSnaps: this.model.fullMaterial ? (this.model.extraSnaps || []) : [],
+        bookAura: this.model.bookAura ?? [],
+        snapsSelect: this.model.snapsSelect ?? [],
+        bookExtra: this.model.fullMaterial ? (this.model.bookExtra ?? []) : [],
+        snapsExtra: this.model.fullMaterial ? (this.model.snapsExtra ?? []) : [],
         videos: this.model.fullMaterial ? (this.model.videos || []) : [],
       };
       await downloadFullMaterialZip(this.model.name, material);

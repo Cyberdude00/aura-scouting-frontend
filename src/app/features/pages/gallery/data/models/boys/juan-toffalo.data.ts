@@ -9,7 +9,7 @@ export const juanToffalo: ScoutingModel = {
   hair: 'Brown',
   eyes: 'Brown',
   shoe: '42/9',
-  book: [
+  bookAura: [
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658900/aura/gallery/models/boys/juan-toffalo/book/1-juan-toffalo-alessandro-palma-ceres.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658900/aura/gallery/models/boys/juan-toffalo/book/1-juan-toffalo-gianmarco-ceres.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658901/aura/gallery/models/boys/juan-toffalo/book/2-juan-toffalo-batuk-ceres.jpg',
@@ -33,8 +33,15 @@ export const juanToffalo: ScoutingModel = {
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658914/aura/gallery/models/boys/juan-toffalo/book/30-juan-toffalo-gian-carassai-ceres.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658915/aura/gallery/models/boys/juan-toffalo/book/36-juan-toffalo-gian-carassai-ceres.jpg',
   ],
-  extraMaterial: [
-    // Orden ascendente por número
+  snapsSelect: [
+    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658915/aura/gallery/models/boys/juan-toffalo/polas/9-juan-toffalo-digitals-ceres.jpg',
+    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658916/aura/gallery/models/boys/juan-toffalo/polas/14-juan-toffalo-digitals-ceres.jpg',
+    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658918/aura/gallery/models/boys/juan-toffalo/polas/19-juan-toffalo-digitals-ceres.jpg',
+    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658919/aura/gallery/models/boys/juan-toffalo/polas/20-juan-toffalo-digitals-ceres.jpg',
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654887/aura/gallery/models/boys/juan-toffalo/extra-material/juan_toffalo_book_extras_1.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654888/aura/gallery/models/boys/juan-toffalo/extra-material/juan_toffalo_book_extras_2.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654889/aura/gallery/models/boys/juan-toffalo/extra-material/juan_toffalo_book_extras_3.jpg',
@@ -57,14 +64,9 @@ export const juanToffalo: ScoutingModel = {
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654906/aura/gallery/models/boys/juan-toffalo/extra-material/juan_toffalo_book_extras_20.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654907/aura/gallery/models/boys/juan-toffalo/extra-material/juan_toffalo_book_extras_21.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654908/aura/gallery/models/boys/juan-toffalo/extra-material/juan_toffalo_book_extras_22.jpg',
-  ],
-  polas: [
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658915/aura/gallery/models/boys/juan-toffalo/polas/9-juan-toffalo-digitals-ceres.jpg',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658916/aura/gallery/models/boys/juan-toffalo/polas/14-juan-toffalo-digitals-ceres.jpg',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658918/aura/gallery/models/boys/juan-toffalo/polas/19-juan-toffalo-digitals-ceres.jpg',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771658919/aura/gallery/models/boys/juan-toffalo/polas/20-juan-toffalo-digitals-ceres.jpg',
-  ],
-  extraSnaps: [
+    ],
+
+    snapsExtra: [
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654909/aura/gallery/models/boys/juan-toffalo/extra-polas/juan_toffalo_snaps_extras_1.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654910/aura/gallery/models/boys/juan-toffalo/extra-polas/juan_toffalo_snaps_extras_2.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654911/aura/gallery/models/boys/juan-toffalo/extra-polas/juan_toffalo_snaps_extras_3.jpg',
@@ -80,14 +82,11 @@ export const juanToffalo: ScoutingModel = {
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654921/aura/gallery/models/boys/juan-toffalo/extra-polas/juan_toffalo_snaps_extras_13.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654923/aura/gallery/models/boys/juan-toffalo/extra-polas/juan_toffalo_snaps_extras_14.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1772654924/aura/gallery/models/boys/juan-toffalo/extra-polas/juan_toffalo_snaps_extras_15.jpg',
-  ],
-  videos: [
+    ],
+    videos: [
     'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698461/aura/gallery/models/boys/juan-toffalo/videos/video-output-5ca6604b-e751-4c94-b9f4-8c958cbbbd57-1.mp4',
-  ],
-  fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
-    videos: [],
-  }
+    ]
+  },
+  instagram: [
+  ]
 };

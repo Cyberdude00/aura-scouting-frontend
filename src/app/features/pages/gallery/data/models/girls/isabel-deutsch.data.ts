@@ -9,7 +9,7 @@ export const isabelDeutsch: ScoutingModel = {
   hair: "Brown",
   eyes: "Green",
   shoe: "37",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772497507/isabel_deutsch_book_01_b2hxsd.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772497508/isabel_deutsch_book_02_jctop1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772497512/isabel_deutsch_book_03_yvbrxd.jpg",
@@ -29,34 +29,34 @@ export const isabelDeutsch: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772497548/isabel_deutsch_book_17_yvnbk9.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772497552/isabel_deutsch_book_18_huvgwc.jpg"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659401/aura/gallery/models/girls/isabel-deutsch/polas/isabel-deutsch-pola-1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659402/aura/gallery/models/girls/isabel-deutsch/polas/isabel-deutsch-pola-2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659402/aura/gallery/models/girls/isabel-deutsch/polas/isabel-deutsch-pola-3.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659403/aura/gallery/models/girls/isabel-deutsch/polas/isabel-deutsch-pola-4.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659404/aura/gallery/models/girls/isabel-deutsch/polas/isabel-deutsch-pola-5.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659405/aura/gallery/models/girls/isabel-deutsch/polas/isabel-deutsch-pola-7.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-      extraMaterial: [
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698220/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_1.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698221/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_2.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698222/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_3.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698223/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_4.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698224/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_5.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698225/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_6.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698226/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_7.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698227/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_8.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698228/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_9.jpg",
-        "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698229/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_10.jpg"
-      ],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698220/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698221/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698222/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698223/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698224/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698225/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698226/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698227/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698228/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_9.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772698229/aura/gallery/models/girls/isabel-deutsch/extra-material/isabel_deutsch_book_extras_10.jpg"
+    ],
+
+    snapsExtra: [
+    ],
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698552/aura/gallery/models/girls/isabel-deutsch/videos/isabel-deutsch-video-2.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698552/aura/gallery/models/girls/isabel-deutsch/videos/isabel-deutsch-video-2.mp4"
+
     ]
   },
   instagram: []

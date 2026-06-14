@@ -50,10 +50,10 @@ export class Measurements implements OnDestroy {
     }
 
     const material: ModelMaterialSections = {
-      book: this.model.book ?? [],
-      extraMaterial: this.model.extraMaterial ?? [],
-      polas: this.model.polas ?? [],
-      extraSnaps: this.model.extraSnaps ?? [],
+      bookAura: this.model.bookAura ?? [],
+      bookExtra: this.model.bookExtra ?? [],
+      snapsSelect: this.model.snapsSelect ?? [],
+      snapsExtra: this.model.snapsExtra ?? [],
       videos: this.model.videos ?? [],
     };
 

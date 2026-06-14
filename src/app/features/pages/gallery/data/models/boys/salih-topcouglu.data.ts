@@ -9,7 +9,7 @@ export const salihTopcouglu: ScoutingModel = {
   hair: "Brown",
   eyes: "Brown",
   shoe: "8.5/43",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659052/aura/gallery/models/boys/salih-topcouglu/book/salih-book1.webp",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659052/aura/gallery/models/boys/salih-topcouglu/book/salih-book2.webp",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659053/aura/gallery/models/boys/salih-topcouglu/book/salih-book3.webp",
@@ -41,24 +41,24 @@ export const salihTopcouglu: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659069/aura/gallery/models/boys/salih-topcouglu/book/salih-book29.webp",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659070/aura/gallery/models/boys/salih-topcouglu/book/salih-book30.webp"
   ],
-  extraMaterial: [],
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771877857/salih_polas_1_f00una.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771877857/salih_polas_8_pu2sya.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771877860/salih_polas_3_gfpnfu.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771877859/salih_polas_2_ccgxjq.jpg"
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [],
+
+    snapsExtra: [
+    ],
     videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698476/aura/gallery/models/boys/salih-topcouglu/videos/salih_video1.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698478/aura/gallery/models/boys/salih-topcouglu/videos/salih_video2.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698480/aura/gallery/models/boys/salih-topcouglu/videos/salih_video3.mp4"
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698476/aura/gallery/models/boys/salih-topcouglu/videos/salih_video1.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698478/aura/gallery/models/boys/salih-topcouglu/videos/salih_video2.mp4",
+    "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698480/aura/gallery/models/boys/salih-topcouglu/videos/salih_video3.mp4"
     ]
   },
-  instagram: []
+  instagram: [
+  ]
 };

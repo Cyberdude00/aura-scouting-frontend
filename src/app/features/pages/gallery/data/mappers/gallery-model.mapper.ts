@@ -63,11 +63,8 @@ function splitPortfolioBySection(items: string[]): PortfolioSections {
 
 function collectBaseSections(model: ScoutingModel): PortfolioSections {
   const sections = emptySections();
-  pushUnique(sections.book, model.book ?? []);
-  pushUnique(sections.extraMaterial, model.extraMaterial ?? []);
-  pushUnique(sections.polas, model.polas ?? []);
-  pushUnique(sections.extraSnaps, model.extraSnaps ?? []);
-  pushUnique(sections.videos, model.videos ?? []);
+  pushUnique(sections.book, model.bookAura ?? []);
+  pushUnique(sections.polas, model.snapsSelect ?? model.fullMaterialData?.snapsSelect ?? []);
   const legacyPortfolio = (model.portfolio ?? []).filter((item): item is string => typeof item === 'string' && item.trim().length > 0);
   if (legacyPortfolio.length) {
     const splitLegacy = splitPortfolioBySection(legacyPortfolio);
@@ -88,10 +85,23 @@ function pushUnique(target: string[], items: string[]) {
 function normalizeFullMaterial(model: ScoutingModel): PortfolioSections {
   const sections = emptySections();
   const full = model.fullMaterialData;
-  pushUnique(sections.extraMaterial, [...(model.extraMaterial ?? []), ...(full?.extraMaterial ?? [])]);
-  pushUnique(sections.polas, [...(model.polas ?? []), ...(full?.polas ?? [])]);
-  pushUnique(sections.extraSnaps, [...(model.extraSnaps ?? []), ...(full?.extraSnaps ?? [])]);
-  pushUnique(sections.videos, [...(model.videos ?? []), ...(full?.videos ?? [])]);
+  if (full?.bookExtra) {
+    pushUnique(sections.extraMaterial, full.bookExtra);
+  } else {
+    pushUnique(sections.extraMaterial, model.bookExtra ?? []);
+  }
+  const mainSnaps = model.snapsSelect ?? full?.snapsSelect ?? [];
+  pushUnique(sections.polas, mainSnaps);
+  if (full?.snapsExtra) {
+    pushUnique(sections.extraSnaps, full.snapsExtra);
+  } else {
+    pushUnique(sections.extraSnaps, model.snapsExtra ?? []);
+  }
+  if (full?.videos) {
+    pushUnique(sections.videos, full.videos);
+  } else {
+    pushUnique(sections.videos, model.videos ?? []);
+  }
   return sections;
 }
 
@@ -118,20 +128,19 @@ export function toGalleryModel(
   const fullbookOn = fullbookStatus === 'on';
   const cacheBuster = resolveCacheBuster();
 
-  const book = (model.book ?? []).map(media => applyCacheBuster(media, cacheBuster));
-  const polas = (model.polas ?? []).map(media => applyCacheBuster(media, cacheBuster));
-  const extraMaterial = [...(model.extraMaterial ?? []), ...(model.fullMaterialData?.extraMaterial ?? [])].map(media => applyCacheBuster(media, cacheBuster));
-  const extraSnaps = [...(model.extraSnaps ?? []), ...(model.fullMaterialData?.extraSnaps ?? [])].map(media => applyCacheBuster(media, cacheBuster));
-  const videos = [...(model.videos ?? []), ...(model.fullMaterialData?.videos ?? [])].map(media => applyCacheBuster(media, cacheBuster));
+  const book = (model.bookAura ?? []).map((media: string) => applyCacheBuster(media, cacheBuster));
+  const polas = ((model.snapsSelect ?? model.fullMaterialData?.snapsSelect) ?? []).map((media: string) => applyCacheBuster(media, cacheBuster));
+  const extraMaterial = ((model.fullMaterialData?.bookExtra ?? model.bookExtra) ?? []).map((media: string) => applyCacheBuster(media, cacheBuster));
+  const extraSnaps = ((model.fullMaterialData?.snapsExtra ?? model.snapsExtra) ?? []).map((media: string) => applyCacheBuster(media, cacheBuster));
+  const videos = ((model.fullMaterialData?.videos ?? model.videos) ?? []).map((media: string) => applyCacheBuster(media, cacheBuster));
 
   const instagram = (model.instagram ?? []).filter((item): item is string => typeof item === 'string' && item.trim().length > 0);
 
   const fullMaterialMedia = [
-    ...(model.fullMaterialData?.extraMaterial ?? []),
-    ...(model.fullMaterialData?.polas ?? []),
-    ...(model.fullMaterialData?.extraSnaps ?? []),
-    ...(model.fullMaterialData?.videos ?? [])
-  ].map(media => applyCacheBuster(media, cacheBuster));
+    ...(model.fullMaterialData?.bookExtra ?? model.bookExtra ?? []),
+    ...(model.fullMaterialData?.snapsExtra ?? model.snapsExtra ?? []),
+    ...(model.fullMaterialData?.videos ?? model.videos ?? [])
+  ].map((media: string) => applyCacheBuster(media, cacheBuster));
 
   return {
     id,
@@ -146,10 +155,10 @@ export function toGalleryModel(
     ongoingTrip: resolveOngoingTrip(status),
     fullMaterial: fullbookOn,
     fullMaterialMedia,
-    book,
-    polas,
-    extraMaterial,
-    extraSnaps,
+    bookAura: book,
+    snapsSelect: polas,
+    bookExtra: extraMaterial,
+    snapsExtra: extraSnaps,
     videos,
     instagram,
     portfolio: buildOrderedPortfolio(baseSections, normalizedFull, fullbookOn),

@@ -9,7 +9,7 @@ export const alanMarquez: ScoutingModel = {
   hair: "Brown",
   eyes: "Green",
   shoe: "8/42",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660753/aura/gallery/models/boys/alan-marquez/book/alan_marquez_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660755/aura/gallery/models/boys/alan-marquez/book/alan_marquez_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660756/aura/gallery/models/boys/alan-marquez/book/alan_marquez_book_03.jpg",
@@ -41,7 +41,16 @@ export const alanMarquez: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660778/aura/gallery/models/boys/alan-marquez/book/alan_marquez_book_029.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660779/aura/gallery/models/boys/alan-marquez/book/alan_marquez_book_030.jpg"
   ],
-  extraMaterial: [
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660780/aura/gallery/models/boys/alan-marquez/polas/_r9a1647.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660781/aura/gallery/models/boys/alan-marquez/polas/_r9a1723.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660782/aura/gallery/models/boys/alan-marquez/polas/_r9a1729.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660783/aura/gallery/models/boys/alan-marquez/polas/_r9a1801.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660785/aura/gallery/models/boys/alan-marquez/polas/_r9a1805.jpg"
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654320/aura/gallery/models/boys/alan-marquez/extra-material/alan_marquez_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654322/aura/gallery/models/boys/alan-marquez/extra-material/alan_marquez_book_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654323/aura/gallery/models/boys/alan-marquez/extra-material/alan_marquez_book_extras_3.jpg",
@@ -63,15 +72,9 @@ export const alanMarquez: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654340/aura/gallery/models/boys/alan-marquez/extra-material/alan_marquez_book_extras_19.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654340/aura/gallery/models/boys/alan-marquez/extra-material/alan_marquez_book_extras_20.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654342/aura/gallery/models/boys/alan-marquez/extra-material/alan_marquez_book_extras_21.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660780/aura/gallery/models/boys/alan-marquez/polas/_r9a1647.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660781/aura/gallery/models/boys/alan-marquez/polas/_r9a1723.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660782/aura/gallery/models/boys/alan-marquez/polas/_r9a1729.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660783/aura/gallery/models/boys/alan-marquez/polas/_r9a1801.jpg",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771660785/aura/gallery/models/boys/alan-marquez/polas/_r9a1805.jpg"
-  ],
-  extraSnaps: [
+    ],
+
+    snapsExtra: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654343/aura/gallery/models/boys/alan-marquez/extra-polas/alan_marquez_snaps_extra_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654344/aura/gallery/models/boys/alan-marquez/extra-polas/alan_marquez_snaps_extra_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654346/aura/gallery/models/boys/alan-marquez/extra-polas/alan_marquez_snaps_extra_3.jpg",
@@ -83,13 +86,15 @@ export const alanMarquez: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654355/aura/gallery/models/boys/alan-marquez/extra-polas/alan_marquez_snaps_extra_9.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654356/aura/gallery/models/boys/alan-marquez/extra-polas/alan_marquez_snaps_extra_10.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772654358/aura/gallery/models/boys/alan-marquez/extra-polas/alan_marquez_snaps_extra_11.jpg"
-  ],
-  videos: [
+    ],
+    videos: [
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698436/aura/gallery/models/boys/alan-marquez/videos/alan-marquez_walk_2.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698434/aura/gallery/models/boys/alan-marquez/videos/alan-marquez_walk_1.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698431/aura/gallery/models/boys/alan-marquez/videos/alan-marquez_video_personalidad-ingles_2.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698425/aura/gallery/models/boys/alan-marquez/videos/alan-marquez_video_ingles_2.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698422/aura/gallery/models/boys/alan-marquez/videos/alan-marquez_video_ingles_1.mp4"
-  ],
-  instagram: []
+    ]
+  },
+  instagram: [
+  ]
 };

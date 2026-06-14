@@ -9,7 +9,7 @@ export const marianaArias: ScoutingModel = {
   hair: 'Brown',
   eyes: 'Brown',
   shoe: '7-38',
-  book: [
+  bookAura: [
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659448/aura/gallery/models/girls/mariana-arias/book/mariana_arias_book_1.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659449/aura/gallery/models/girls/mariana-arias/book/mariana_arias_book_2.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659449/aura/gallery/models/girls/mariana-arias/book/mariana_arias_book_3.jpg',
@@ -38,32 +38,43 @@ export const marianaArias: ScoutingModel = {
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659464/aura/gallery/models/girls/mariana-arias/book/mariana_arias_book_26.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659464/aura/gallery/models/girls/mariana-arias/book/mariana_arias_book_27.jpg',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659465/aura/gallery/models/girls/mariana-arias/book/mariana_arias_book_28.jpg',
+  ],
+  snapsSelect: [
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659466/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_1.webp',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659466/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_2.webp',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659467/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_3.webp',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659468/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_4.webp',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659468/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_5.webp',
     'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659469/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_6.webp'
-  ],
-  extraMaterial: [],
-  polas: [
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659466/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_1.webp',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659466/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_2.webp',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659467/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_3.webp',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659468/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_4.webp',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659468/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_5.webp',
-    'https://res.cloudinary.com/dcxaitngm/image/upload/v1771659469/aura/gallery/models/girls/mariana-arias/polas/mariana_arias_polas_6.webp'
-  ],
-  extraSnaps: [],
-  videos: [],
+    ],
+
   fullMaterialData: {
-    extraMaterial: [],
-    polas: [],
-    extraSnaps: [],
+    bookExtra: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695450/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_1.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695455/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_10.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695456/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_11.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695457/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_12.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695458/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_13.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695458/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_14.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695459/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_15.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695460/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_16.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695450/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_2.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695451/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_3.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695452/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_4.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695452/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_5.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695453/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_6.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695453/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_7.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695454/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_8.jpg",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695455/aura/gallery/models/girls/mariana-arias/extra-material/mariana_arias_book_extras_9.jpg"
+    ],
+
+    snapsExtra: [
+    ],
     videos: [
-      'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698577/aura/gallery/models/girls/mariana-arias/videos/mariana_arias_video_1.mp4',
-      'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698578/aura/gallery/models/girls/mariana-arias/videos/mariana_arias_video_2.mp4',
-      'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698583/aura/gallery/models/girls/mariana-arias/videos/mariana_arias_video_3.mp4'
+    'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698577/aura/gallery/models/girls/mariana-arias/videos/mariana_arias_video_1.mp4',
+    'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698578/aura/gallery/models/girls/mariana-arias/videos/mariana_arias_video_2.mp4',
+    'https://res.cloudinary.com/dcxaitngm/video/upload/v1772698583/aura/gallery/models/girls/mariana-arias/videos/mariana_arias_video_3.mp4'
     ]
-  }
+  },
+  instagram: []
 };

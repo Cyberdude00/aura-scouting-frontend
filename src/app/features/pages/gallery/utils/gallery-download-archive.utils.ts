@@ -20,19 +20,19 @@ function extensionFromUrl(url: string): string {
 }
 
 export interface ModelMaterialSections {
-  book: string[];
-  extraMaterial: string[];
-  polas: string[];
-  extraSnaps: string[];
+  bookAura: string[];
+  bookExtra: string[];
+  snapsSelect: string[];
+  snapsExtra: string[];
   videos: string[];
 }
 
 export async function downloadFullMaterialZip(modelName: string, material: ModelMaterialSections): Promise<void> {
   const allMedia: string[] = [
-    ...material.book,
-    ...material.extraMaterial,
-    ...material.polas,
-    ...material.extraSnaps,
+    ...material.bookAura,
+    ...material.bookExtra,
+    ...material.snapsSelect,
+    ...material.snapsExtra,
     ...material.videos,
   ].filter((url) => typeof url === 'string' && url.trim().length > 0);
 

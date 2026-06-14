@@ -9,7 +9,7 @@ export const felicitas: ScoutingModel = {
   hair: "Brown",
   eyes: "Brown",
   shoe: "8.5/39.5",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659325/aura/gallery/models/girls/felicitas/book/felicitas_codesal_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659327/aura/gallery/models/girls/felicitas/book/felicitas_codesal_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659328/aura/gallery/models/girls/felicitas/book/felicitas_codesal_book_03.jpg",
@@ -40,32 +40,26 @@ export const felicitas: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659362/aura/gallery/models/girls/felicitas/book/felicitas_codesal_book_28.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659363/aura/gallery/models/girls/felicitas/book/felicitas_codesal_book_29.jpg"
   ],
-  extraMaterial: [], // No extra material found in main catalog
-  polas: [
+  snapsSelect: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659364/aura/gallery/models/girls/felicitas/polas/6be49376-98a9-4e01-8bc3-6c473c9cac11-2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659365/aura/gallery/models/girls/felicitas/polas/9b6431c6-f3a9-45a7-a333-59d4c71827c2-2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659366/aura/gallery/models/girls/felicitas/polas/63ca382c-5641-4a47-a291-d6a53e703b5a-2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659366/aura/gallery/models/girls/felicitas/polas/74f9acc1-85ff-41c6-a18b-d3012837967a-2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659368/aura/gallery/models/girls/felicitas/polas/acefd1bc-d3bc-489a-820f-72a2a7b2f2a7-2.jpg"
-  ],
-  extraSnaps: [],
-  videos: [
+    ],
+
+  fullMaterialData: {
+    bookExtra: [
+    ],
+
+    snapsExtra: [
+    ],
+    videos: [
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698537/aura/gallery/models/girls/felicitas/videos/4e82337250f146528ff3e6a067fa28ac.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698539/aura/gallery/models/girls/felicitas/videos/7c684eadf03b42a2853d76d6fa86a3bb.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698541/aura/gallery/models/girls/felicitas/videos/9cdb37b2e5b846858545787220fbdb0a.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698544/aura/gallery/models/girls/felicitas/videos/186a2da6195d4082ad9fd12fabde4d0b.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698546/aura/gallery/models/girls/felicitas/videos/video-2026-02-19-16-40-02.mp4"
-  ],
-  fullMaterialData: {
-    extraMaterial: [], // No extra material found in main catalog
-    polas: [],
-    extraSnaps: [],
-    videos: [
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698537/aura/gallery/models/girls/felicitas/videos/4e82337250f146528ff3e6a067fa28ac.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698539/aura/gallery/models/girls/felicitas/videos/7c684eadf03b42a2853d76d6fa86a3bb.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698541/aura/gallery/models/girls/felicitas/videos/9cdb37b2e5b846858545787220fbdb0a.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698544/aura/gallery/models/girls/felicitas/videos/186a2da6195d4082ad9fd12fabde4d0b.mp4",
-      "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698546/aura/gallery/models/girls/felicitas/videos/video-2026-02-19-16-40-02.mp4"
     ]
   },
   instagram: []

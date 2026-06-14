@@ -5,11 +5,11 @@ export const marianeBallmann: ScoutingModel = {
   gender: "Girls",
   photo: "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333056/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20select/3-mariane-ballmann-mayo-we-love-models-mexico.jpg",
   height: "1.71m",
-  measurements: "B 83cm W 59cm H90.5cm ",
+  measurements: "B 83 W 59 H 90",
   hair: "Blonde",
-  eyes: "Green",
+  eyes: "Gren",
   shoe: "37",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332865/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20aura/mariane-ballmann-book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332867/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20aura/mariane-ballmann-book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332868/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20aura/mariane-ballmann-book_03.jpg",
@@ -43,7 +43,7 @@ export const marianeBallmann: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332905/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20aura/mariane-ballmann-book_31.jpg"
   ],
   fullMaterialData: {
-    extraMaterial: [
+    bookExtra: [
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332906/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20extra/mariane-ballman-book_32.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332906/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20extra/mariane-ballman-book_33.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332906/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20extra/mariane-ballman-book_34.jpg",
@@ -166,13 +166,13 @@ export const marianeBallmann: ScoutingModel = {
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332906/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20extra/mariane-ballman-book_151.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780332906/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20book%20extra/mariane-ballman-book_152.jpg"
       ],
-    polas: [
+    snapsSelect: [
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333056/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20select/3-mariane-ballmann-mayo-we-love-models-mexico.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333057/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20select/4-mariane-ballmann-mayo-we-love-models-mexico.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333058/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20select/6-mariane-ballmann-mayo-we-love-models-mexico.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333059/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20select/9-mariane-ballmann-mayo-we-love-models-mexico.jpg"
     ],
-    extraSnaps: [
+    snapsExtra: [
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333050/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20extra/1-mariane-ballmann-mayo-we-love-models-mexico.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333052/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20extra/2-mariane-ballmann-mayo-we-love-models-mexico.jpg",
       "https://res.cloudinary.com/dcxaitngm/image/upload/v1780333053/aura/gallery/models/girls/Mariane%20Ballmann/Mariane%20Ballmann%20snaps%20extra/5-mariane-ballmann-mayo-we-love-models-mexico.jpg",

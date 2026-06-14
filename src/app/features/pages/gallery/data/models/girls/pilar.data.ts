@@ -9,7 +9,7 @@ export const pilar: ScoutingModel = {
   hair: "Blonde",
   eyes: "Brown",
   shoe: "6/39",
-  book: [
+  bookAura: [
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659488/aura/gallery/models/girls/pilar-sampaio/book/pilar_sampaio_book_01.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659489/aura/gallery/models/girls/pilar-sampaio/book/pilar_sampaio_book_02.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659489/aura/gallery/models/girls/pilar-sampaio/book/pilar_sampaio_book_03.jpg",
@@ -36,8 +36,17 @@ export const pilar: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659506/aura/gallery/models/girls/pilar-sampaio/book/pilar_sampaio_book_24.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659506/aura/gallery/models/girls/pilar-sampaio/book/pilar_sampaio_book_25.jpg"
   ],
-  extraMaterial: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695484/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_1.jpg",
+  snapsSelect: [
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2456.JPG",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2462.JPG",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2483.JPG",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2487.JPG",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2503.JPG",
+    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2507.JPG"
+    ],
+
+  fullMaterialData: {
+    bookExtra: ["https://res.cloudinary.com/dcxaitngm/image/upload/v1772695484/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_1.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695486/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_2.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695486/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_3.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695487/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_4.jpg",
@@ -68,21 +77,16 @@ export const pilar: ScoutingModel = {
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695508/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_29.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695509/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_30.jpg",
     "https://res.cloudinary.com/dcxaitngm/image/upload/v1772695510/aura/gallery/models/girls/pilar-sampaio/extra-material/pilar_sampaio_book_extras_31.jpg"
-  ],
-  polas: [
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2456.JPG",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2462.JPG",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2483.JPG",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2487.JPG",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2503.JPG",
-    "https://res.cloudinary.com/dcxaitngm/image/upload/v1771659530/aura/gallery/models/girls/pilar-sampaio/polas/IMG_2507.JPG"
-  ],
-  extraSnaps: [],
-  videos: [
+    ],
+
+    snapsExtra: [],
+    videos: [
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698609/aura/gallery/models/girls/pilar-sampaio/videos/img_3393.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698606/aura/gallery/models/girls/pilar-sampaio/videos/img_3393-3.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698604/aura/gallery/models/girls/pilar-sampaio/videos/img_3393-2.mp4",
     "https://res.cloudinary.com/dcxaitngm/video/upload/v1772698601/aura/gallery/models/girls/pilar-sampaio/videos/img_3391.mp4"
-  ],
-  instagram: []
+    ]
+  },
+  instagram: [
+  ]
 };
